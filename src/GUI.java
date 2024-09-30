@@ -1,15 +1,10 @@
-import com.mysql.cj.jdbc.DatabaseMetaData;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
 import java.awt.*;
 import java.sql.*;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Vector;
 
 public class GUI extends JFrame {
@@ -27,9 +22,9 @@ public class GUI extends JFrame {
         ArrayList columnNames = new ArrayList();
         ArrayList data = new ArrayList();
 
-        String url = "jdbc:mysql://localhost:3306/your_dir";
-        String userid = "your_usr";
-        String password = "your_pass";
+        String url = "jdbc:mysql://localhost:3306/izreg";
+        String userid = "root";
+        String password = "17st27_70ar!Go21";
 
         try {
             connection = DriverManager.getConnection( url, userid, password );
@@ -61,9 +56,9 @@ public class GUI extends JFrame {
         ArrayList columnNames = new ArrayList();
         ArrayList data = new ArrayList();
 
-        String url = "jdbc:mysql://localhost:3306/your_dir";
-        String userid = "your_usr";
-        String password = "your_pass";
+        String url = "jdbc:mysql://localhost:3306/izreg";
+        String userid = "root";
+        String password = "17st27_70ar!Go21";
 
         try (Connection connection = DriverManager.getConnection( url, userid, password );
              Statement stmt = connection.createStatement();
