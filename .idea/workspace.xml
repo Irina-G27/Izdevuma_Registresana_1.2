@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a59c4f-2238-48b2-91bc-3a5baa4707cc" name="Changes" comment="jar file">
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="a1a59c4f-2238-48b2-91bc-3a5baa4707cc" name="Changes" comment="jar file change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JAR Application.IzdevumaRegistresana.jar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -114,13 +113,30 @@
       <option name="project" value="LOCAL" />
       <updated>1727699155876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jar file change">
+      <option name="closed" value="true" />
+      <created>1727699334335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727699334335</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jar file change">
+      <option name="closed" value="true" />
+      <created>1727699754955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727699754955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A few text edits" />
     <MESSAGE value="string url/userid/pass changes (cosmetic)" />
     <MESSAGE value="jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar file" />
+    <MESSAGE value="jar file change" />
+    <option name="LAST_COMMIT_MESSAGE" value="jar file change" />
   </component>
 </project>
