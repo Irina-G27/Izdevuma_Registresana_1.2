@@ -8,9 +8,31 @@ Prasības:
 3. Platform independent MYSQL connector (https://dev.mysql.com/downloads/connector/j/)
 
 Instrukcijas:
-1.
-2.
-3.
+• Izveidojiet lietotnei MYSQL tabulu
+ 1. Atveriet savu MYSQL klientu
+ 2. Izveidojiet datu bāzi (piem.: CREATE DATABASE db_name; ) vai izmantojiet jau esošu (piem.: USE db_name; )
+ 3. Izveidojiet tabulu "expenses" , kā parādīts tālāk:
+ IZVEIDOT TABULU expenses(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  description VARCHAR(250) NOT NULL,
+  sum DECIMAL(10, 2),
+  date DATETIME* NOT NULL, 
 
-Datu bāzes apraksts:
+ *DATETIME nozīmē, ka datums būs jāieraksta šādā formātā: YYYY-MM-DD hh:mm:ss 
 
+ • Rediģējiet URL, lietotāju un paroli
+ 1. Lietotņu mapē atrodiet mapi "src".
+ 2. Atveriet GUI.java
+ 3. Rediģējiet 25., 26., 27. rindiņu, lai iekļautu sava MYSQL servera URL (piemēram, jdbc:mysql://localhost:3306/db_name), MYSQL user (piem.: root) un MYSQL server password (vai, ja  nav iestatīta parole, atstājiet to kā " ")
+ 4. Rediģējiet 59., 60., 61. rindiņu, tapāt kā 3. darbībā
+ 5. Atveriet DatabaseManager.java
+ 6. Rediģējiet 7., 8., 9. rindiņu, tapāt kā 3. darbībā
+
+ • Savienojiet Java lietotni ar MYQl datu bāzi, izmantojot savienotāju:
+ • Izmantojot IntelliJ:
+ 1. Atveriet projekta .iml failu
+ 2. Atvērt Fails -> projekta struktūra -> moduļi - atkarības 
+ 3. Nospiediet "+" un pievienojiet MYSQL savienotāja jar failu
+ 4. Nospiediet “Lietot” un “Labi”.
+ 5. Saglabājiet izmaiņas
