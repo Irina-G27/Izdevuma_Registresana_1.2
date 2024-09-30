@@ -1,12 +1,16 @@
 Projekta apraksts:
-A simple java dekstop app that allows you to record your expenses into a MYSQL database!
-Lets you to add and delete expenses (description, profit, and date), categorise them (by date, profit amount, or individual id), and even sum up the expense profit!
+Vienkārša Java desktopa lietotne, kas ļauj ierakstīt savus izdevumus MYSQL datu bāzē!
+Ļauj pievienot un dzēst izdevumus (aprakstu, peļņu un datumu), klasificēt tos (pēc datuma, peļņas summas vai individuālā identifikatora) un pat summēt izdevumu peļņu!
 
 Prasības:
-1. MYSQL client (Workbench 8.0 CE or 8.0 Command Line Client)
-2. 
+1. IntelliJ IDEA (vai... cita Java programma)
+2. MYSQL client (Workbench 8.0 CE or 8.0 Command Line Client)
+3. Platform independent MYSQL connector (https://dev.mysql.com/downloads/connector/j/)
 
 Instrukcijas:
-
+1.
+2.
+3.
 
 Datu bāzes apraksts:
+
