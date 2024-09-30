@@ -32,7 +32,7 @@ Instrukcijas:
  • Savienojiet Java lietotni ar MYQl datu bāzi, izmantojot savienotāju:
  • Izmantojot IntelliJ:
  1. Atveriet projekta .iml failu
- 2. Atvērt Fails -> projekta struktūra -> moduļi - atkarības 
- 3. Nospiediet "+" un pievienojiet MYSQL savienotāja jar failu
- 4. Nospiediet “Lietot” un “Labi”.
+ 2. Atvērt File -> project structure -> modules - dependencies 
+ 3. Nospiediet "+" un pievienojiet MYSQL savienotāja .jar failu
+ 4. Nospiediet “Apply” un “OK”.
  5. Saglabājiet izmaiņas
