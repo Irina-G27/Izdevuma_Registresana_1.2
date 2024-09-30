@@ -36,3 +36,8 @@ Instrukcijas:
  3. Nospiediet "+" un pievienojiet MYSQL savienotāja .jar failu
  4. Nospiediet “Apply” un “OK”.
  5. Saglabājiet izmaiņas
+
+Screenshots:
+![Izdreg_scrn](https://github.com/user-attachments/assets/633abd94-4baf-42b1-be19-0d70497a6924)
+![izdreg_scrnmain](https://github.com/user-attachments/assets/10860adc-dc52-452d-8826-57d2b0c465fa)
+
