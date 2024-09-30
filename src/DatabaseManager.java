@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseManager {
+    //example
     private static final String DB_URL = "jdbc:mysql://localhost:3306/izreg";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "17st27_70ar!Go21";

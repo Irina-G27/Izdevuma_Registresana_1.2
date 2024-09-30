@@ -27,9 +27,9 @@ public class GUI extends JFrame {
         ArrayList columnNames = new ArrayList();
         ArrayList data = new ArrayList();
 
-        String url = "jdbc:mysql://localhost:3306/izreg";
-        String userid = "root";
-        String password = "17st27_70ar!Go21";
+        String url = "jdbc:mysql://localhost:3306/your_dir";
+        String userid = "your_usr";
+        String password = "your_pass";
 
         try {
             connection = DriverManager.getConnection( url, userid, password );
@@ -55,15 +55,15 @@ public class GUI extends JFrame {
     }
 
     // Method to load data from the database with a custom SQL query
-    private void loadDataFromDatabase(String sql) {
+    public void loadDataFromDatabase(String sql) {
 
         // SQL connection to the table
         ArrayList columnNames = new ArrayList();
         ArrayList data = new ArrayList();
 
-        String url = "jdbc:mysql://localhost:3306/izreg";
-        String userid = "root";
-        String password = "17st27_70ar!Go21";
+        String url = "jdbc:mysql://localhost:3306/your_dir";
+        String userid = "your_usr";
+        String password = "your_pass";
 
         try (Connection connection = DriverManager.getConnection( url, userid, password );
              Statement stmt = connection.createStatement();
