@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IzdevumaRegistresana:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IzdevumaRegistresana_jar</output-path>
+    <root id="archive" name="IzdevumaRegistresana.jar">
+      <element id="module-output" name="IzdevumaRegistresana" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/mysql/connector/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
